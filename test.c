@@ -19,7 +19,7 @@ double predict_bits() {
 
 
   for( i = 0 ; i < 32 ; i++ ) {
-    previous[i] = rand();
+    previous[i] = random();
   }
 
   for( i = 32; i < MAX-1; i++){
