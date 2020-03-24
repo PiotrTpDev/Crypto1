@@ -57,7 +57,7 @@ double distinguisher(){
 
   for(i = 0; i < 1000; i++){
 
-    algorithm = rand() % 2;
+    algorithm = random() % 2;
 
     if(algorithm == 0){
       for (j = 0; j < sequence_size; j++){
